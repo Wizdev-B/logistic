@@ -127,7 +127,7 @@ submit.addEventListener("click", () => {
   } else if (destinationZone.value == "lagos") {
     totalCost = baseCost + 1000;
   } else if (destinationZone.value == "abeokuta") {
-    totalCost = baseCost + 2000;
+    totalCost = baseCost;
   } else {
     baseCost;
   }
